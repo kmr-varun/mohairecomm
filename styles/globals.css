@@ -334,6 +334,12 @@ body {
   z-index: 10;
 }
 
+image {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 @keyframes qode-marching-ants-animation {
   0% {
     stroke-dashoffset: 0;
