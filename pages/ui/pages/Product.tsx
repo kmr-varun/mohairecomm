@@ -148,7 +148,7 @@ export default function Products() {
                                   src={product.image}
                                   alt={product.name}
                                   fill
-                                  className="object-contain "
+                                  className="object-contain border-none shadow-none"
                                 />
                               </Link>
                               <div className="mt-4 w-full flex items-center justify-between ">
