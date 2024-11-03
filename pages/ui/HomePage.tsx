@@ -11,8 +11,9 @@ import Pricing from "./pages/Pricing";
 import Products from "./pages/Product";
 import Service from "./pages/Service";
 import NewsletterSection from "./pages/Newsletter2";
-import { TapeSection } from "./pages/Tape";
+
 import Slideshow from "./pages/Slideshow";
+import TapeSection from "./pages/Tape";
 
 const HomePage: React.FC = () => {
   return (

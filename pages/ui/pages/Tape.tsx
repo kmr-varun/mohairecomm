@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const words = ["Individuality of your style", "Weekend Special Sale 50%"];
 
-export const TapeSection = () => {
+export default function TapeSection() {
   return (
     <div className="">
       <div className="py-10  overflow-clip">
@@ -30,4 +30,4 @@ export const TapeSection = () => {
       </div>
     </div>
   );
-};
+}
