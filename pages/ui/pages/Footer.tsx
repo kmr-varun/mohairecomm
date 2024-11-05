@@ -6,13 +6,12 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-[#1a2419] text-gray-300 py-24 font-['Jost']">
-      <div className="w-full flex justify-between px-10 py-10">
-        {/* Brand Column */}
-        <div className="space-y-6 w-[400px]">
+      <div className="w-full flex justify-between gap-10 px-10">
+        <div className="space-y-6 basis-1/4">
           <h2 className="text-3xl font-light tracking-wide text-white">
             MOHAIR
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-xl leading-relaxed">
             Discover the finest tailor and haute couture studio in town, get in
             touch with us and let's start the work on your new suit together.
           </p>
@@ -43,9 +42,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-
-        {/* Information Column */}
-        <div className="space-y-6 text-lg">
+        <div className="space-y-6 text-lg basis-1/4">
           <h3 className=" font-light text-3xl text-white">Information:</h3>
           <div className="space-y-3">
             <p>info.tailor@example.com</p>
@@ -57,9 +54,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Quick Links Column */}
-        <div className="space-y-6">
+        <div className="space-y-6  basis-1/4">
           <h3 className="text-3xl font-light text-white">Quick Links:</h3>
           <nav className="flex flex-col space-y-5 text-[12px] font-medium tracking-wider">
             <Link href="#" className="hover:text-white">
@@ -79,9 +74,7 @@ export default function Footer() {
             </Link>
           </nav>
         </div>
-
-        {/* Join Us Column */}
-        <div className="space-y-6 w-[320px]">
+        <div className="space-y-6  basis-1/4">
           <h3 className="text-3xl font-light text-white">Join Us:</h3>
           <p className="text-lg">
             Sign up for exclusive offers, original stories, events and more.

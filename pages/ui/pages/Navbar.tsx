@@ -65,7 +65,7 @@ export default function Component() {
   };
 
   return (
-    <div className="fixed top-0 z-50 w-full">
+    <div className="fixed top-0 z-50 w-full left-0">
       <nav className="flex items-center justify-between px-6 py-6 bg-white text-black">
         <Link
           href="/"

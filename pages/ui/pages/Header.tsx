@@ -91,7 +91,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex flex-col pb-20">
+    <header className="w-full flex flex-col pb-20">
       <div className="relative h-[calc(100vh-88px)] top-[88px] w-full overflow-hidden">
         <Swiper
           modules={[Navigation, Autoplay]}
